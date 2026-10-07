@@ -29,9 +29,11 @@ public class Myfirstscript {
 		WebElement submitBtn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@type='submit']")));
 		submitBtn.click();
 		
+		
+		
 
 				
-	//driver.close();
+	driver.close();
 		driver.quit();
 		
 		
